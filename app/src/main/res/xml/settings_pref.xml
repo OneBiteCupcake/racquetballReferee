@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<CheckBoxPreference
+        android:defaultValue="true"
+        android:key="display_text"
+        android:summaryOff="Invisible"
+        android:summaryOn="Visible"
+        android:title="is it this one"/>-->
+
+    <EditTextPreference
+        android:defaultValue="@string/player_one"
+        android:inputType="text"
+        android:key="@string/player_one_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/player_one" />
+
+    <EditTextPreference
+        android:defaultValue="@string/player_two"
+        android:inputType="text"
+        android:key="@string/player_two_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/player_two" />
+
+    <EditTextPreference
+        android:defaultValue="@string/player_three"
+        android:inputType="text"
+        android:key="@string/player_three_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/player_three" />
+
+    <EditTextPreference
+        android:defaultValue="@string/player_four"
+        android:inputType="text"
+        android:key="@string/player_four_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/player_four" />
+</PreferenceScreen>
