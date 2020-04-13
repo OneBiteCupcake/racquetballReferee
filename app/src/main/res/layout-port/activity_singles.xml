@@ -23,7 +23,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="16dp"
-                android:text="Player One"
+                android:text="@string/player_one"
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
@@ -34,7 +34,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="24dp"
-                android:text="0"
+                android:text="@string/_0"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -45,7 +45,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForPlayerOne"
-                android:text="+1 Point" />
+                android:text="@string/_1_point" />
 
             <Button
                 android:layout_width="match_parent"
@@ -54,7 +54,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="technicalFoulForPlayerOne"
-                android:text="Technical Foul (-1)" />
+                android:text="@string/technical_foul_1" />
 
         </LinearLayout>
 
@@ -77,7 +77,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="16dp"
-                android:text="Player Two"
+                android:text="@string/player_two"
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
@@ -88,7 +88,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="24dp"
-                android:text="0"
+                android:text="@string/_0"
                 android:textColor="#000000"
                 android:textSize="56sp" />
 
@@ -99,7 +99,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForPlayerTwo"
-                android:text="+1 Point" />
+                android:text="@string/_1_point" />
 
             <Button
                 android:layout_width="match_parent"
@@ -108,7 +108,7 @@
                 android:layout_marginRight="22dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="technicalFoulForPlayerTwo"
-                android:text="Technical Foul (-1)" />
+                android:text="@string/technical_foul_1" />
 
         </LinearLayout>
     </LinearLayout>
@@ -121,5 +121,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:onClick="resetScore"
-        android:text="Reset" />
+        android:text="@string/reset" />
 </RelativeLayout>

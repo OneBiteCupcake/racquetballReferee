@@ -18,7 +18,7 @@
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Singles"
+            android:text="@string/category_singles"
             android:textAllCaps="true"
             android:textColor="@android:color/black"
             android:textSize="14sp" />
@@ -31,7 +31,7 @@
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Doubles"
+            android:text="@string/category_doubles"
             android:textAllCaps="true"
             android:textColor="@android:color/black"
             android:textSize="14sp" />
@@ -44,7 +44,7 @@
             android:fontFamily="sans-serif-medium"
             android:gravity="center"
             android:padding="16dp"
-            android:text="Cut Throat"
+            android:text="@string/category_cut_throat"
             android:textAllCaps="true"
             android:textColor="@android:color/black"
             android:textSize="14sp" />
